@@ -1,18 +1,15 @@
-header {
-    font: normal normal normal 40px/50px Lexend;
-    letter-spacing: 8px;
+/* This container evenly spaces components into a row */
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.header-1 {
-    position: absolute;
-    top: 425px;
-    left: 652px;
-}
-
-.header-2 {
-    position: absolute;
-    top: 1112px;
-    left: 764px;
+@font-face {
+    font-family: 'Lexend';
+    src: url('../Fonts/Lexend-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
 }
 
 header,
@@ -22,6 +19,12 @@ position {
     opacity: 1;
 }
 
+header {
+    letter-spacing: 8px;
+    font-size: 40px;
+    line-height: 50px;
+}
+
 img {
     width: 230px;
     height: 344px;
@@ -29,133 +32,13 @@ img {
 }
 
 name {
-    font: normal normal normal 39px/49px Lexend;
     letter-spacing: 0.78px;
+    font-size: 39px;
+    line-height: 49px;
 }
 
 position {
-    font: normal normal normal 25px/31px Lexend;
     letter-spacing: 1.25px;
-}
-
-/* POSITIONING */
-
-/* President */
-.img-president {
-    top: 547px;
-    left: 375px;
-}
-
-.name-president {
-    top: 911px;
-    left: 386px;
-    width: 208px;
-    height: 49px;
-}
-
-.position-president {
-    top: 979px;
-    left: 417px;
-    width: 148px;
-    height: 33px;
-}
-
-/* Operations VP */
-.img-operations {
-    top: 547px;
-    left: 871px;
-}
-
-.name-operations {
-    top: 911px;
-    left: 864px;
-    width: 244px;
-    height: 49px;
-}
-
-.position-operations {
-    top: 976px;
-    left: 897px;
-    width: 180px;
-    height: 33px;
-}
-
-/* Business Dev VP */
-.img-bdvp {
-    top: 554px;
-    left: 1367px;
-}
-
-.name-bdvp {
-    top: 911px;
-    left: 1325px;
-    width: 314px;
-    height: 49px;
-}
-
-.position-bdvp {
-    top: 962px;
-    left: 1339px;
-    width: 303px;
-    height: 78px;
-}
-
-/* Gen Mem 1 */
-.img-gm1 {
-    top: 1234px;
-    left: 375px; 
-}
-
-.name-gm1 {
-    top: 1598px;
-    left: 432px;
-    width: 116px;
-    height: 49px;
-}
-
-.position-gm1 {
-    top: 1668px;
-    left: 437px;
-    width: 107px;
-    height: 33px;
-}
-
-/* Gen Mem 2 */
-.img-gm2 {
-    top: 1234px;
-    left: 871px; 
-}
-
-.name-gm2 {
-    top: 1598px;
-    left: 928px;
-    width: 116px;
-    height: 49px;
-}
-
-.position-gm2 {
-    top: 1668px;
-    left: 934px;
-    width: 106px;
-    height: 33px;
-}
-
-/* Gen Mem 3 */
-.img-gm3 {
-    top: 1234px;
-    left: 1367px; 
-}
-
-.name-gm3 {
-    top: 1598px;
-    left: 1424px;
-    width: 116px;
-    height: 49px;
-}
-
-.position-gm3 {
-    top: 1668px;
-    left: 1435px;
-    width: 106px;
-    height: 33px;
+    font-size: 25px;
+    line-height: 31px;
 }

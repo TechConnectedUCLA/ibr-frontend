@@ -29,17 +29,17 @@ const ExecBoard = [
 const GenMem = [
   {
     name: 'NAME',
-    position: 'POSITION',
+    position: 'Position',
     image: general_member
   },
   {
     name: 'NAME',
-    position: 'POSITION',
+    position: 'Position',
     image: general_member
   },
   {
     name: 'NAME',
-    position: 'POSITION',
+    position: 'Position',
     image: general_member
   } 
 ];
@@ -48,11 +48,14 @@ function Person(props) {
   return (
     <div>
       <img src={props.image} alt='person'></img>
-      <br></br>
+      <br/>
+      <br/>
       <name>{props.name}</name>
-      <br></br>
+      <br/>
+      <br/>
       <position>{props.position}</position>
-      <br></br>
+      <br/>
+      <br/>
     </div>
   )
 }
@@ -60,40 +63,40 @@ function Person(props) {
 function OurTeam() {
   return (
     <div className="OurTeam">
+      
       <h1>OUR TEAM</h1>
-      <header class= "header-1">Executive Board Members</header>
-      { /* map each person to a component */
-        ExecBoard.map(person => {
-          return <Person
-            name= {person.name}
-            position= {person.position}
-            image= {person.image}
-          />
-        })
-      }
+      <header>Executive Board Members</header>
+      <br/>
+      <br/>
+      <div class="flexbox-container">
+        { /* map each Executive Board Member to a component */
+          ExecBoard.map(person => {
+            return <Person
+              name= {person.name}
+              position= {person.position}
+              image= {person.image}
+            />
+          })
+        }
+      </div>
 
-      <br></br>
-      <header class= "header-2">General Members</header>
-      { /* map each person to a component */
-        GenMem.map(person => {
-          return <Person
-            name= {person.name}
-            position= {person.position}
-            image= {person.image}
-          />
-        })
-      }
-    </div>
-  );
-}
+      <br/>
+      <br/>
+      <header>General Members</header>
+      <br/>
+      <br/>
+      <div class="flexbox-container">
+        { /* map each General Member to a component */
+          GenMem.map(person => {
+            return <Person
+              name= {person.name}
+              position= {person.position}
+              image= {person.image}
+            />
+          })
+        }
+      </div>
 
-function OurTeam2() {
-  return (
-    <div className="OurTeam">
-      <h1>OUR TEAM</h1>
-      <header class="header-1">Executive Board Members</header>
-        <img class="img-president" src={president}></img>
-      <header class="header-2">General Members</header>
     </div>
   );
 }
