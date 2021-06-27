@@ -1,8 +1,12 @@
+import "./OurTeam.css"
+
+/* Imported Images */
 import president from '../Images/President.png'
-import operations from '../Images/Operations.png'
+import operations_vp from '../Images/Operations.png'
 import business_dev_vp from '../Images/BusinessDevVP.png'
 import general_member from '../Images/GeneralMember.png'
 
+/* Executive Board Members -- add here */
 const ExecBoard = [
   {
     name: 'Rishi Kheni',
@@ -11,8 +15,8 @@ const ExecBoard = [
   },
   {
     name: 'Cameron Su',
-    position: 'Operations',
-    image: operations
+    position: 'Operations VP',
+    image: operations_vp
   },
   {
     name: 'Johnathan Chen',
@@ -21,6 +25,7 @@ const ExecBoard = [
   }
 ];
 
+/* General Members -- add here */
 const GenMem = [
   {
     name: 'NAME',
@@ -43,8 +48,10 @@ function Person(props) {
   return (
     <div>
       <img src={props.image} alt='person'></img>
-      <h2>{props.name}</h2>
-      <body>{props.position}</body>
+      <br></br>
+      <name>{props.name}</name>
+      <br></br>
+      <position>{props.position}</position>
       <br></br>
     </div>
   )
@@ -54,8 +61,8 @@ function OurTeam() {
   return (
     <div className="OurTeam">
       <h1>OUR TEAM</h1>
-      <h2>Executive Board Members</h2>
-      {
+      <header class= "header-1">Executive Board Members</header>
+      { /* map each person to a component */
         ExecBoard.map(person => {
           return <Person
             name= {person.name}
@@ -66,8 +73,8 @@ function OurTeam() {
       }
 
       <br></br>
-      <h2>General Members</h2>
-      {
+      <header class= "header-2">General Members</header>
+      { /* map each person to a component */
         GenMem.map(person => {
           return <Person
             name= {person.name}
@@ -76,6 +83,17 @@ function OurTeam() {
           />
         })
       }
+    </div>
+  );
+}
+
+function OurTeam2() {
+  return (
+    <div className="OurTeam">
+      <h1>OUR TEAM</h1>
+      <header class="header-1">Executive Board Members</header>
+        <img class="img-president" src={president}></img>
+      <header class="header-2">General Members</header>
     </div>
   );
 }
