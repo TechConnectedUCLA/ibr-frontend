@@ -5,10 +5,10 @@ import {
 } from 'reactstrap';
 
 /* Imported Images */
-import president from '../Images/President.png'
-import operations_vp from '../Images/Operations.png'
-import business_dev_vp from '../Images/BusinessDevVP.png'
-import general_member from '../Images/GeneralMember.png'
+import president from '../Assets/President.png'
+import operations_vp from '../Assets/Operations.png'
+import business_dev_vp from '../Assets/BusinessDevVP.png'
+import general_member from '../Assets/GeneralMember.png'
 
 /* Executive Board Members -- add here */
 const ExecBoard = [
