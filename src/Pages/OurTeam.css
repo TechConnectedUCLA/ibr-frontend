@@ -1,0 +1,44 @@
+/* This container evenly spaces components into a row */
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('../assets/Lexend-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+header,
+name,
+position {
+    color: #000000;
+    opacity: 1;
+}
+
+header {
+    letter-spacing: 8px;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+img {
+    width: 230px;
+    height: 344px;
+    opacity: 1;
+}
+
+name {
+    letter-spacing: 0.78px;
+    font-size: 39px;
+    line-height: 49px;
+}
+
+position {
+    letter-spacing: 1.25px;
+    font-size: 25px;
+    line-height: 31px;
+}
