@@ -1,4 +1,8 @@
 import "./OurTeam.css"
+import {
+  Card, CardImg, CardText, CardBody,
+  CardTitle, CardSubtitle, Button
+} from 'reactstrap';
 
 /* Imported Images */
 import president from '../Images/President.png'
@@ -47,15 +51,18 @@ const GenMem = [
 function Person(props) {
   return (
     <div>
-      <img src={props.image} alt='person'></img>
-      <br/>
-      <br/>
-      <name>{props.name}</name>
-      <br/>
-      <br/>
-      <position>{props.position}</position>
-      <br/>
-      <br/>
+      <Card style={{ width: '19rem' }}>
+        <CardImg src={props.image} alt='person' />
+        <CardBody>
+          <br/>
+          <CardTitle tag="name">{props.name}</CardTitle>
+          <br/>
+          <br/>
+          <CardSubtitle tag="position">{props.position}</CardSubtitle>
+          {/* <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <Button>Button</Button> */}
+        </CardBody>
+      </Card>
     </div>
   )
 }
@@ -68,7 +75,7 @@ function OurTeam() {
       <header>Executive Board Members</header>
       <br/>
       <br/>
-      <div class="flexbox-container">
+      <div className="flexbox-container">
         { /* map each Executive Board Member to a component */
           ExecBoard.map(person => {
             return <Person
