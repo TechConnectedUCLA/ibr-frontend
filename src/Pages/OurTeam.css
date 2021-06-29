@@ -17,6 +17,7 @@ name,
 position {
     color: #000000;
     opacity: 1;
+    font-family: 'Lexend';
 }
 
 header {
@@ -25,7 +26,7 @@ header {
     line-height: 50px;
 }
 
-img {
+.img-ourteam {
     width: 230px;
     height: 344px;
     opacity: 1;

@@ -51,7 +51,7 @@ const GenMem = [
 function Person(props) {
   return (
     <div>
-      <Card style={{ width: '19rem' }}>
+      <Card style={{ width: '20rem' }}>
         <CardImg src={props.image} alt='person' />
         <CardBody>
           <br/>
