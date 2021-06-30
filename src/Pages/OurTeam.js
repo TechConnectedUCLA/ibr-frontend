@@ -69,7 +69,7 @@ function Person(props) {
 
 function OurTeam() {
   return (
-    <div className="OurTeam">
+    <div className="OurTeam" class="wrapper">
       
       <h1>OUR TEAM</h1>
       <header>Executive Board Members</header>
