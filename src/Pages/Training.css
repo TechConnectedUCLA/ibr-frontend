@@ -6,11 +6,15 @@
 }
 
 .blurb {
-    max-width: 90%;
-    height: 253px;
+    width: 100%;
+    height: 90%;
+    max-width: 1316;
+    max-height: 253px;
+    
     margin-left: auto;
     margin-right: auto;
-    transform: scale(0.8);
+    padding-top: 40px;
+    padding-bottom: 70px;
 
     letter-spacing: 1.5px;
     font-size: 30px;
@@ -36,7 +40,7 @@
 .content {
     text-align: left;
     
-    width: 1086px;
+    width: 1060px;
     height: 91px;
     padding-bottom: 1.5rem;
     padding-left: 4rem;
@@ -61,13 +65,23 @@
 }
 
 .container {
-    transform: scale(0.8);
     display: flex;
     flex-direction: column;
+    padding-left: 10%;
+
+    width: 90%;
+    max-width: 1100;
 }
 
 .powell-img {
-    padding-bottom: 5rem;
     width: 384px;
     height: 316px;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(0.7) translateY(-300px);
 }
