@@ -8,7 +8,7 @@ function Training() {
       <h1>TRAINING</h1>
 
       <div class="wrapper">
-        <div class='center' class='blurb'>
+        <div class='blurb'>
             At Internet Bull Report at UCLA, new analysts complete an interdisciplinary training program designed to not only enhance their business and financial acumen but to bolster their critical thinking and writing skills. 
             The rigorous 4-part course provides the fundamentals for members to write coherent, compelling articles as they engage with the world of finance.
         </div>
