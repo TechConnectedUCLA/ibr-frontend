@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Lexend-Regular';
+    src: url('../Assets/Lexend-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Lexend-Light';
+    src: url('../Assets/Lexend-Light.ttf');
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;   
+    text-align: center;
+}
+
+.card-title {
+    font-family: 'Lexend-Regular';
+    letter-spacing: 1.6px;
+    font-size: 32px;
+    line-height: 38px;
+
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.card-subtitle {
+    font-family: 'Lexend-Light';
+    letter-spacing: 1.5px;
+    font-size: 30px;
+    line-height: 38px;
+
+    margin-left: 30px;
+}
+
+.card-text {
+    font-family: 'Lexend-Regular';
+    letter-spacing: 1.5px;
+    font-size: 30px;
+    line-height: 38px;
+
+    margin-left: 30px;
+    width: 500px;
+}
+
+.card-button {
+    width: 192px;
+    height: 74px;
+    background-color: #323D4D;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float: right;
+    
+    color: #FDFDFD;
+    font-family: 'Lexend-Regular';
+    letter-spacing: 4.8px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.img-royce {
+    width: 580px;
+    height: 772px;
+    margin-right: 10px;
+}
+
+.container-tophalf {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+    border: 1px solid #707070;
+
+    width: 819px;
+    height: 280px;
+}
+
+.container-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    height: 1000px;
+    margin-left: 10px;
+}
+
+.flex-end {
+    align-self: flex-end;
+}
+
