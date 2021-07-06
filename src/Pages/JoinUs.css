@@ -16,6 +16,39 @@
     text-align: center;
 }
 
+.container-tophalf {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-bottom: 100px;
+}
+
+.container-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+    border: 1px solid #707070;
+
+    width: 819px;
+    height: 280px;
+}
+
+.container-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    height: 1000px;
+    margin-left: 10px;
+}
+
+.flex-end {
+    align-self: flex-end;
+}
+
 .card-title {
     font-family: 'Lexend-Regular';
     letter-spacing: 1.6px;
@@ -67,39 +100,6 @@
     margin-right: 10px;
 }
 
-.container-tophalf {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    margin-bottom: 100px;
-}
-
-.container-card {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    text-align: left;
-    border: 1px solid #707070;
-
-    width: 819px;
-    height: 280px;
-}
-
-.container-cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    
-    height: 1000px;
-    margin-left: 10px;
-}
-
-.flex-end {
-    align-self: flex-end;
-}
-
 .page-header {
     font-family: 'Lexend-Regular';
     letter-spacing: 10px;
@@ -132,6 +132,7 @@
 
     text-align: left;
     margin-bottom: 50px;
+    margin-left: 100px;
 }
 
 .page-text {
@@ -147,11 +148,63 @@
     margin-bottom: 50px;
 }
 
-.container-bothalf {
-    width: 90%;
-    max-width: 900px;
-    align-items: center;
+.container-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    text-align: left;
 
+    width: 800px;
+    max-height: 280px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 100px;
+}
+
+.container-contactinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 225px;
+}
+
+.contact-title {
+    font-family: 'Lexend-Regular';
+    letter-spacing: 1.6px;
+    font-size: 32px;
+    line-height: 38px;
+
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+.contact-subtitle {
+    font-family: 'Lexend-Light';
+    letter-spacing: 1.5px;
+    font-size: 30px;
+    line-height: 38px;
+    color: #323D4D;
+
+    margin-left: 30px;
+}
+
+.contact-button {
+    width: 192px;
+    height: 74px;
+    background-color: #323D4D;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 50px;
+    
+    color: #FDFDFD;
+    font-family: 'Lexend-Regular';
+    letter-spacing: 4.8px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.contact-img {
+    height: 225px;
 }

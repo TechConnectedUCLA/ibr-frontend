@@ -61,8 +61,15 @@ function JoinUs() {
 
         <div className="page-header header-2">Have a question?</div>
 
-        <Card>
-          <CardImg src={operations_vp} alt="operations vp"></CardImg>
+        <Card className="container-contact">
+          <CardBody className="container-contactinfo">
+            <div>
+              <CardTitle className="contact-title">Cameron Su</CardTitle>
+              <CardSubtitle className="contact-subtitle">VP of Operations</CardSubtitle>
+            </div>
+            <Button className="contact-button">Contact</Button>
+          </CardBody>
+          <CardImg className="contact-img" src={operations_vp} alt="operations vp"></CardImg>
         </Card>
       </div>
 
