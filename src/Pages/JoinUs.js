@@ -5,6 +5,7 @@ import {
 } from 'reactstrap';
 
 import royce from '../Assets/Royce.png'
+import operations_vp from '../Assets/Operations.png'
 
 function JoinUs() {
   return (
@@ -48,7 +49,21 @@ function JoinUs() {
               </CardBody>
             </Card>
           </div>
-        </div> 
+        </div>
+
+        <div className="page-header header-1">Available Positions</div>
+
+        <div className="page-subtitle">Campus Analyst</div>
+        <div className="page-text">Introduction to investing, stock market, and financial commentary</div>
+
+        <div className="page-subtitle">Growth Lead</div>
+        <div className="page-text">Learn how to conduct in-depth research and analysis into securities</div>
+
+        <div className="page-header header-2">Have a question?</div>
+
+        <Card>
+          <CardImg src={operations_vp} alt="operations vp"></CardImg>
+        </Card>
       </div>
 
 

@@ -31,6 +31,7 @@
     letter-spacing: 1.5px;
     font-size: 30px;
     line-height: 38px;
+    color: #323D4D;
 
     margin-left: 30px;
 }
@@ -70,6 +71,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    margin-bottom: 100px;
 }
 
 .container-card {
@@ -97,3 +100,58 @@
     align-self: flex-end;
 }
 
+.page-header {
+    font-family: 'Lexend-Regular';
+    letter-spacing: 10px;
+    font-size: 50px;
+    line-height: 63px;
+
+    border-bottom: 1px solid #707070;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+.header-1 {
+    width: 650px;
+    height: 63px;
+}
+
+.header-2 {
+    width: 600px;
+    height: 63px;
+}
+
+.page-subtitle {
+    font-family: 'Lexend-Regular';
+    letter-spacing: 8px;
+    font-size: 40px;
+    line-height: 50px;
+
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.page-text {
+    font-family: 'Lexend-Regular';
+    letter-spacing: 1.5px;
+    font-size: 30px;
+    line-height: 38px;
+
+    text-align: center;
+    width: 988px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.container-bothalf {
+    width: 90%;
+    max-width: 900px;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
