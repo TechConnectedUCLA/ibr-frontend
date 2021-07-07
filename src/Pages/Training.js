@@ -5,7 +5,7 @@ import library from "../Assets/powellLibrary.png"
 function Training() {
   return (
     <div>
-      <h1>TRAINING</h1>
+      <h1 className="page-title">Training Program</h1>
 
       <div class="wrapper">
         <div class='blurb'>
