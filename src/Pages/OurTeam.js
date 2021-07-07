@@ -71,7 +71,7 @@ function OurTeam() {
   return (
     <div className="OurTeam" class="wrapper">
       
-      <h1>OUR TEAM</h1>
+      <h1 className="page-title">OUR TEAM</h1>
       <header>Executive Board Members</header>
       <br/>
       <br/>
