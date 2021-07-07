@@ -10,7 +10,7 @@ import operations_vp from '../Assets/Operations.png'
 function JoinUs() {
   return (
     <div>
-      <h1>JOIN US</h1>
+      <h1 className="page-title">Join Us</h1>
       <div className="wrapper">
         <div className="container-tophalf">
           <img src={royce} alt="royce hall" className="img-royce"></img>
